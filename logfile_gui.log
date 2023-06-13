@@ -1,0 +1,942 @@
+2023-05-28 13:17:31,505 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 475, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 464, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 424, in __init__
+    for row in rez:
+TypeError: 'NoneType' object is not iterable
+2023-05-28 13:27:09,769 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 475, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 464, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 424, in __init__
+    for row in rez:
+TypeError: 'NoneType' object is not iterable
+2023-05-28 13:29:17,881 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\gui.py", line 475, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\gui.py", line 464, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\gui.py", line 424, in __init__
+    for row in rez:
+TypeError: 'NoneType' object is not iterable
+2023-05-28 13:30:24,305 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 475, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 464, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 424, in __init__
+    for row in rez:
+TypeError: 'NoneType' object is not iterable
+2023-05-28 13:38:12,218 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 475, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 464, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 421, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\data_acq.py", line 229, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-05-28 13:40:07,729 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 475, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 464, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\gui.py", line 421, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\chen\Desktop\SmartHome-main\data_acq.py", line 229, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-01 08:46:01,346 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 550, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 538, in __init__
+    self.airconditionDock= Dht(self.mc)
+                           ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 487, in __init__
+    self.ePublisherTopic.setText(DHT_topic)
+                                 ^^^^^^^^^
+NameError: name 'DHT_topic' is not defined
+2023-06-01 08:46:31,607 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 550, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 538, in __init__
+    self.airconditionDock= Dht(self.mc)
+                           ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 487, in __init__
+    self.ePublisherTopic.setText(DHT_topic)
+                                 ^^^^^^^^^
+NameError: name 'DHT_topic' is not defined
+2023-06-01 09:55:01,627 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 646, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 619, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 459, in __init__
+    self.mc.set_on_connected_to_form(self.on_connected)
+                                     ^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'on_connected'
+2023-06-01 09:55:49,608 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 646, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 619, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 459, in __init__
+    self.mc.set_on_connected_to_form(self.on_connected)
+                                     ^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'on_connected'
+2023-06-01 09:56:03,219 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 646, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 619, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 459, in __init__
+    self.mc.set_on_connected_to_form(self.on_connected)
+                                     ^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'on_connected'
+2023-06-01 09:56:15,672 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 646, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 619, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 459, in __init__
+    self.mc.set_on_connected_to_form(self.on_connected)
+                                     ^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'on_connected'
+2023-06-01 09:57:20,417 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 646, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 619, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 459, in __init__
+    self.mc.set_on_connected_to_form(self.on_connected)
+                                     ^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'on_connected'
+2023-06-01 09:59:41,014 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 653, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 626, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 508, in __init__
+    formLayot.addRow("Turn On/Off",self.eConnectbtn)
+                                   ^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'eConnectbtn'
+2023-06-01 09:59:46,036 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 653, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 626, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 508, in __init__
+    formLayot.addRow("Turn On/Off",self.eConnectbtn)
+                                   ^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'eConnectbtn'
+2023-06-01 09:59:56,462 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 653, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 626, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 508, in __init__
+    formLayot.addRow("Turn On/Off",self.eConnectbtn)
+                                   ^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'eConnectbtn'
+2023-06-01 10:00:00,360 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 653, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 626, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 508, in __init__
+    formLayot.addRow("Turn On/Off",self.eConnectbtn)
+                                   ^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'eConnectbtn'
+2023-06-01 10:00:02,856 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 653, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 626, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 508, in __init__
+    formLayot.addRow("Turn On/Off",self.eConnectbtn)
+                                   ^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'eConnectbtn'
+2023-06-01 10:01:13,683 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 653, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 626, in __init__
+    self.tempDock = ButtonDock(self.mc)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 510, in __init__
+    formLayot.addRow("Button",self.ePushtbtn)
+                              ^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'ePushtbtn'
+2023-06-01 12:28:39,224 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 800, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 781, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.kickedtime))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'kickedtime'
+2023-06-01 12:29:02,549 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 800, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 781, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.kickedtime))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'kickedtime'
+2023-06-01 12:29:40,952 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 800, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 781, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.kickedtime))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'kickedtime'
+2023-06-01 12:30:26,056 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 800, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 781, in __init__
+    self.timer.timeout.connect(self.update_data())
+TypeError: argument 1 has unexpected type 'NoneType'
+2023-06-01 12:32:07,708 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 799, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 780, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.kickedtime))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'kickedtime'
+2023-06-01 12:33:01,547 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 795, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 776, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.kickedtime))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'kickedtime'
+2023-06-01 12:35:25,069 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 799, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 780, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.kickedtime))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'kickedtime'
+2023-06-01 12:36:20,354 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 769, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 750, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.kickedtime))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'kickedtime'
+2023-06-01 12:36:26,206 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 769, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 750, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.kickedtime))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'kickedtime'
+2023-06-01 12:37:19,309 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 769, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 750, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.kickedtime))
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ButtonDock' object has no attribute 'kickedtime'
+2023-06-01 12:39:56,780 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 769, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 750, in __init__
+    self.timer.timeout.connect(self.update_data(self.tempDock.Durationt))
+TypeError: argument 1 has unexpected type 'NoneType'
+2023-06-01 12:40:25,326 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 769, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 750, in __init__
+    self.timer.timeout.connect(self.update_data(self,self.tempDock.Durationt))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MainWindow.update_data() takes 2 positional arguments but 3 were given
+2023-06-01 12:41:13,459 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 769, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 750, in __init__
+    self.timer.timeout.connect(self.update_data())
+                               ^^^^^^^^^^^^^^^^^^
+TypeError: MainWindow.update_data() missing 1 required positional argument: 'kicked_time'
+2023-06-01 12:45:05,655 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 769, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 750, in __init__
+    self.timer.timeout.connect(self.update_data())
+                               ^^^^^^^^^^^^^^^^^^
+TypeError: MainWindow.update_data() missing 1 required positional argument: 'kicked_time'
+2023-06-01 12:45:20,013 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 769, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 750, in __init__
+    self.timer.timeout.connect(self.update_data())
+                               ^^^^^^^^^^^^^^^^^^
+TypeError: MainWindow.update_data() missing 1 required positional argument: 'kicked_time'
+2023-06-09 13:27:35,528 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 845, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 817, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:28:09,561 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 845, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 817, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:28:33,421 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 845, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 817, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:30:11,366 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 845, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 817, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:30:26,744 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 845, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 817, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:31:12,601 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 846, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 817, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:31:37,512 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 846, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 817, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:31:52,744 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 847, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 818, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:32:05,635 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 848, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 819, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:32:22,543 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 849, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:32:35,304 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 850, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:32:50,430 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 851, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 13:33:05,928 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 851, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('data','2021-05-16','2021-05-18', 'ElecMeter')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 240, in filter_by_date
+    cur.execute("SELECT * FROM " + table_name +" WHERE `name` LIKE '"+ meter +"' AND timestamp BETWEEN '"+ start_date +"' AND '"+ end_date +"'")
+sqlite3.OperationalError: no such table: data
+2023-06-09 16:12:59,919 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 852, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 821, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 450, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:17:35,563 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 852, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 449, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:17:41,524 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 852, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 449, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:17:56,308 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 852, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 449, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:19:49,935 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 852, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 449, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:20:29,517 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 852, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 449, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:20:36,493 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 852, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 449, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:23:00,544 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 852, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 820, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 449, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:23:24,768 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 853, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 821, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 450, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:23:47,871 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 854, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 822, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 450, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:24:04,027 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 855, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 823, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('kick_sensor','2021-05-16','2021-05-18')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:24:40,463 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 853, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 821, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 449, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-06-09','2023-06-09')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:24:48,747 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 853, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 821, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 449, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-06-09','2023-06-09')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:25:00,890 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 854, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 822, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 450, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-06-09','2023-06-09')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:25:11,936 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 855, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 823, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 450, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-06-09','2023-06-09')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:25:33,486 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 855, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 823, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 450, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-09-06','2023-09-06')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_by_date() missing 1 required positional argument: 'meter'
+2023-06-09 16:38:49,042 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-09-06','2023-09-06')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 242, in filter_by_date
+    print(rows)
+          ^^^^
+UnboundLocalError: cannot access local variable 'rows' where it is not associated with a value
+2023-06-09 16:39:16,897 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-09-06','2023-09-06')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 242, in filter_by_date
+    print(rows)
+          ^^^^
+UnboundLocalError: cannot access local variable 'rows' where it is not associated with a value
+2023-06-09 16:39:58,924 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-09-06','2023-09-06')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 242, in filter_by_date
+    print(rows)
+          ^^^^
+UnboundLocalError: cannot access local variable 'rows' where it is not associated with a value
+2023-06-09 16:40:00,987 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-09-06','2023-09-06')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 242, in filter_by_date
+    print(rows)
+          ^^^^
+UnboundLocalError: cannot access local variable 'rows' where it is not associated with a value
+2023-06-09 16:40:06,982 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-09-06','2023-09-06')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 242, in filter_by_date
+    print(rows)
+          ^^^^
+UnboundLocalError: cannot access local variable 'rows' where it is not associated with a value
+2023-06-09 16:40:11,332 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-09-06','2023-09-06')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 242, in filter_by_date
+    print(rows)
+          ^^^^
+UnboundLocalError: cannot access local variable 'rows' where it is not associated with a value
+2023-06-09 16:40:15,912 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 451, in __init__
+    rez= da.filter_by_date('kick_sensor','2023-09-06','2023-09-06')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\data_acq.py", line 242, in filter_by_date
+    print(rows)
+          ^^^^
+UnboundLocalError: cannot access local variable 'rows' where it is not associated with a value
+2023-06-09 16:41:58,685 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 474, in __init__
+    self.data_line=self.graphWidget.plot( datal,timel,  pen=pen)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotItem\PlotItem.py", line 634, in plot
+    self.addItem(item, params=params)
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotItem\PlotItem.py", line 515, in addItem
+    self.vb.addItem(item, *args, **vbargs)
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\ViewBox\ViewBox.py", line 438, in addItem
+    self.updateAutoRange()
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\ViewBox\ViewBox.py", line 951, in updateAutoRange
+    childRange = self.childrenBounds(frac=fractionVisible)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\ViewBox\ViewBox.py", line 1448, in childrenBounds
+    yr = item.dataBounds(1, frac=frac[1], orthoRange=orthoRange[1])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotDataItem.py", line 1114, in dataBounds
+    range = self.curve.dataBounds(ax, frac, orthoRange)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotCurveItem.py", line 249, in dataBounds
+    b = ( float(np.nanmin(d)), float(np.nanmax(d)) ) # enforce float format for bounds, even if data format is different
+                ^^^^^^^^^^^^
+  File "<__array_function__ internals>", line 200, in nanmin
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\lib\nanfunctions.py", line 343, in nanmin
+    res = np.fmin.reduce(a, axis=axis, out=out, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy.core._exceptions._UFuncNoLoopError: ufunc 'fmin' did not contain a loop with signature matching types (dtype('<U19'), dtype('<U19')) -> None
+2023-06-09 16:45:45,887 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 474, in __init__
+    self.data_line=self.graphWidget.plot( datal,timel,  pen=pen)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotItem\PlotItem.py", line 634, in plot
+    self.addItem(item, params=params)
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotItem\PlotItem.py", line 515, in addItem
+    self.vb.addItem(item, *args, **vbargs)
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\ViewBox\ViewBox.py", line 438, in addItem
+    self.updateAutoRange()
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\ViewBox\ViewBox.py", line 951, in updateAutoRange
+    childRange = self.childrenBounds(frac=fractionVisible)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\ViewBox\ViewBox.py", line 1448, in childrenBounds
+    yr = item.dataBounds(1, frac=frac[1], orthoRange=orthoRange[1])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotDataItem.py", line 1114, in dataBounds
+    range = self.curve.dataBounds(ax, frac, orthoRange)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotCurveItem.py", line 249, in dataBounds
+    b = ( float(np.nanmin(d)), float(np.nanmax(d)) ) # enforce float format for bounds, even if data format is different
+                ^^^^^^^^^^^^
+  File "<__array_function__ internals>", line 200, in nanmin
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\lib\nanfunctions.py", line 343, in nanmin
+    res = np.fmin.reduce(a, axis=axis, out=out, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy.core._exceptions._UFuncNoLoopError: ufunc 'fmin' did not contain a loop with signature matching types (dtype('<U19'), dtype('<U19')) -> None
+2023-06-09 16:47:48,135 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 856, in <module>
+    mainwin = MainWindow()
+              ^^^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 824, in __init__
+    self.plotsDock = PlotDock()
+                     ^^^^^^^^^^
+  File "c:\Users\shimon\Desktop\SmartHome-main\gui.py", line 474, in __init__
+    self.data_line=self.graphWidget.plot( datal,timel,  pen=pen)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotItem\PlotItem.py", line 634, in plot
+    self.addItem(item, params=params)
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotItem\PlotItem.py", line 515, in addItem
+    self.vb.addItem(item, *args, **vbargs)
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\ViewBox\ViewBox.py", line 438, in addItem
+    self.updateAutoRange()
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\ViewBox\ViewBox.py", line 951, in updateAutoRange
+    childRange = self.childrenBounds(frac=fractionVisible)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\ViewBox\ViewBox.py", line 1448, in childrenBounds
+    yr = item.dataBounds(1, frac=frac[1], orthoRange=orthoRange[1])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotDataItem.py", line 1114, in dataBounds
+    range = self.curve.dataBounds(ax, frac, orthoRange)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqtgraph\graphicsItems\PlotCurveItem.py", line 249, in dataBounds
+    b = ( float(np.nanmin(d)), float(np.nanmax(d)) ) # enforce float format for bounds, even if data format is different
+                ^^^^^^^^^^^^
+  File "<__array_function__ internals>", line 200, in nanmin
+  File "C:\Users\shimon\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\lib\nanfunctions.py", line 343, in nanmin
+    res = np.fmin.reduce(a, axis=axis, out=out, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy.core._exceptions._UFuncNoLoopError: ufunc 'fmin' did not contain a loop with signature matching types (dtype('<U19'), dtype('<U19')) -> None

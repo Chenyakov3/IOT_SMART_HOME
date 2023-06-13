@@ -1,0 +1,99 @@
+2023-05-31 12:19:58,753 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:01,576 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:04,541 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:07,486 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:10,554 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:44,337 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:46,523 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:49,470 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:52,538 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:55,504 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
+2023-05-31 12:20:58,638 : ERROR : __main__ : Crash!
+Traceback (most recent call last):
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 264, in <module>
+    mainwin = MainWindow(argv)
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\chen\Desktop\SmartHome-main\emulator.py", line 193, in __init__
+    self.connectionDock = ConnectionDock(self.mc, self.name, self.topic_sub, self.topic_pub)
+                                                      ^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'topic_sub'
